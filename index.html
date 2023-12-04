@@ -1,21 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js" defer></script>
-</head>
-<body id="body">
-    <form action="submit" id="myForm">
-        <input type="text" name="Nome" id="petName">
-        <input type="text" name="Padrone" id="ownerName">
-        <input type="text" name="Tipo di Animale" id="species">
-        <input type="text" name="Razza" id="breed">
-        <input type="button" value="invia" id="bottoneform">
-    </form>
-    <ul id="ulanimali">
+    <!DOCTYPE html>
+    <html lang="en">
 
-    </ul>
-</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="script.js" defer></script>
+    </head>
+
+    <body id="body">
+        <form style="display: flex;" action="submit" id="myForm">
+            <div>
+                <label for="">Nome:</label>
+                <input type="text" name="Nome" id="petName">
+            </div>
+            <div>
+                <label for="">Padrone:</label>
+                <input type="text" name="Padrone" id="ownerName">
+            </div>
+            <div>
+                <label for="">Tipo:</label>
+                <input type="text" name="Tipo di Animale" id="species">
+            </div>
+            <div>
+                <label for="">Razza:</label>
+                <input type="text" name="Razza" id="breed">
+            </div>
+            <input type="button" value="invia" id="bottoneform">
+        </form>
+        <ul id="ulanimali">
+
+        </ul>
+    </body>
+
+    </html>
